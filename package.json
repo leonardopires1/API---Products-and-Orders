@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3"
+  },
+  "name": "api-com-banco-de-dados",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "db:sync": "node ./src/database/sync-database.js",
+    "dev": "node --watch ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
